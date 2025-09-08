@@ -7,7 +7,7 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    environment: hoge
+#    environment: hoge
     runs-on: ubuntu-latest
     steps:
       - name: "Get ID Token"
